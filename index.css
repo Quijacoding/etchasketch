@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    max-width: fit-content;
+    margin: auto;
+}
+
+#grid {
+    width: 600px;
+    height: 600px;
+    margin: 0;
+    border: solid blue;
+    display: flex;
+    flex-flow: wrap;
+    
+}
+
+#button {
+    margin: auto;
+}
